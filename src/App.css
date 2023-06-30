@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  display: flex;
+  background-color: grey;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.side-menu {
+  width: 260px;
+
+  color: white;
+  background-color: #202123;
+  padding: 10px;
+}
+.chatbox {
+  flex: 1;
+  background-color: #343541;
+  position: relative;
+}
+.side-menu-buttun {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d9d9e3;
+  text-align: left;
+  font-size: 15px;
+  transition: ease 0.25s all;
+}
+.side-menu-buttun span {
+  padding-left: 4px;
+  padding-right: 6px;
+}
+.side-menu-buttun:hover {
+  background-color: rgb(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.chatbox-input-area {
+  padding: 12px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.chatbox-input-textarea {
+  background-color: #40414f;
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 2px 5px 0.25px rgb(0, 0, 0, 0.3);
+  resize: none;
+  color: #fff;
+  font-size: 1.25 em;
+}
+.chatbox-input-textarea:focus {
+  outline: 0;
+}
+.chat-log {
+  color: #fff;
+ 
+  text-align: left;
+  display: flex;
+}
+
+.chat-message {
+  background-color: rgb(255, 255, 255, 0.1);
+  width: 100%;
+}
+.chat-message-center {
+  padding: 12px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-left: 24px;
+  padding-right: 25px;
+}
+
+.avatar {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+.message {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
